@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #e91e63;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  padding: 12px 25px;
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  font-size: 1.1em;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e91e63;
+}
+
+/* Botão secreto no contato */
+.botao-secreta {
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #ff69b4;
+  text-decoration: none;
+  border: 2px dashed #ff69b4;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+}
+
+.botao-secreta:hover {
+  background-color: #ffecf2;
+}
+
+/* Estilos para a página do pedido */
+body.pedido h1 {
+  font-size: 3em;
+}
+
+.botoes {
+  margin-top: 40px;
+}
+
+.botoes .botao {
+  margin: 0 10px;
+  padding: 15px 35px;
+  background-color: #ff69b4;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botoes .botao:hover {
+  background-color: #e91e63;
+}
